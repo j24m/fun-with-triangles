@@ -1,0 +1,40 @@
+:root{
+    --primary-color: #FCA5A5;
+    --light-color: #7F1D1D;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: left;
+    margin-top: 3rem;
+}
+label{
+    font-weight: bold;
+}
+
+.p{
+    font-weight: bold;
+}
+
+#submit-answer-button{
+    background-color: var(--light-color);
+    font-size: large;
+    color: var(--primary-color);
+    border-radius: 0.4rem;
+    display:block;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+#output{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: large;
+}
