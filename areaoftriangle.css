@@ -1,0 +1,52 @@
+:root{
+    --primary-color: #064E3B;
+    --light-color: #6EE7B7; 
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border: solid;
+    border-width:thin;
+}
+
+#label{
+    display: block;
+    margin:auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 4rem;
+}
+
+.base-height{
+    display:block;
+    margin:auto;
+    padding: 0.5rem;
+    border-style:dashed;
+    border-radius: 1rem;
+}
+
+#calculate-area{
+    display:block;
+    margin:auto;
+    padding:0.5rem;
+    margin-top: 3rem;
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: large;
+}
+
+#output{
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
