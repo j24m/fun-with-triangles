@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #1E3A8A;
+    --light-color: #C7D2FE;
+}
+body{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    text-align: center;
+    font-family: cursive;
+}
+
+#label{
+    font-weight: bold;
+    font-size: larger;
+    display: block;
+    margin:auto;
+}
+.side-input{
+    display: block;
+    margin:auto;
+    margin-bottom: 2rem;
+    border-style: dotted;
+    border-radius: 2rem;
+    font-size: larger;
+    padding:0.6rem;
+    text-align: center;
+}
+
+#hypotenuse-btn{
+    font-size: larger;
+    border-radius: 2rem;
+    padding:0.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#output{
+    margin-top: 1rem;
+    font-size: large;
+}
+
+
