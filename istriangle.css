@@ -6,6 +6,7 @@
 body{
     background-color: var(--primary-color);
     text-align: center;
+    margin: 0px;
 }
 
 h1{
@@ -45,4 +46,24 @@ input,label{
     margin-top: 2rem;
     color: var(--dark-color);
     font-size: larger;
+}
+
+.nav{
+    background-color: var(--darker-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    text-align: left;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 1rem;
+}
+
+.link-active{
+    color: white;
 }

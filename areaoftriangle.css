@@ -50,3 +50,23 @@ h2{
     margin-top: 2rem;
     font-weight: bold;
 }
+
+.nav{
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    text-align: left;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 1rem;
+}
+
+.link-active{
+    color:white;
+}

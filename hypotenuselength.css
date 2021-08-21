@@ -7,6 +7,7 @@ body{
     color: var(--light-color);
     text-align: center;
     font-family: cursive;
+    margin: 0px;
 }
 
 #label{
@@ -37,6 +38,26 @@ body{
 #output{
     margin-top: 1rem;
     font-size: large;
+}
+
+.nav{
+    background-color: var(--light-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    text-align: left;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+
+}
+
+.link{
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 1rem;
+}
+
+.link-active{
+    color:white;
 }
 
 
