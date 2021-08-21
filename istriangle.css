@@ -1,0 +1,48 @@
+:root{
+    --primary-color: orange;
+    --dark-color: green;
+    --darker-color: darkgreen;
+}
+body{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+h1{
+    color:var(--darker-color);
+    font-family: cursive;
+}
+
+input,label{
+    display:block;
+    margin:auto;
+    padding: 0.5 rem;
+    color: var(--dark-color);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-family: cursive;
+}
+
+.angle-input{
+    border-style:dotted;
+    border-width: 0.3rem;
+    border-color: var(--dark-color);
+    text-align: center;
+    }
+
+#is-triangle{
+    background-color: var(--darker-color);
+    padding: 0.5rem;
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 0.4rem;
+}
+
+#output{
+    margin-top: 2rem;
+    color: var(--dark-color);
+    font-size: larger;
+}
